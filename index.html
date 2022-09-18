@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <title>Liverpol</title>
+  </head>
+  <body>
+    <div class="header">
+      
+      <div class="wrapper"><!--ToggleBox-->
+        <div class="burger-menu">
+          <span></span>
+        </div>
+    </div>
+    <div class="inner_header">
+      <div class="logo_container">
+        <a href="#"><img src="/assets/images/github.svg"></a>
+      </div>
+
+      <ul class="navigation">
+        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+        
+      </ul>
+
+      <script>
+        const menu = document.querySelector('.burger-menu');
+        const navlinks = document.querySelector('.navigation');
+        let isOpen = false;
+        
+        menu.addEventListener('click', ()=>{
+        if (isOpen) {
+        menu.classList.remove('active');
+        navlinks.classList.remove("open-link");
+        isOpen = false;
+        } else {
+        menu.classList.add('active');
+        navlinks.classList.add("open-link");
+        isOpen = true;
+        }
+        })
+        
+      </script>
+
+    </div>
+  </div>
+  <h1>Test, ipsum dolor sit amet consectetur adipisicing elit. Officia in voluptatum blanditiis eveniet ullam, quas mollitia corrupti iure inventore debitis nam pariatur labore nesciunt voluptatibus corporis aut aspernatur laboriosam sit!</h1>
+  <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia in voluptatum blanditiis eveniet ullam, quas mollitia corrupti iure inventore debitis nam pariatur labore nesciunt voluptatibus corporis aut aspernatur laboriosam sit!</h1>
+ 
+  
+</body>
+<div class="footer">
+  <div class="inner_footer">
+
+  </div>
+
+</div>
+
+
+
+</html>
